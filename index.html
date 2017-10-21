@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body style="
+      font-family: Montserrat, opensans, helvatica;
+      src: url('https://fonts.googleapis.com/css?family=Montserrat');
+      font-style: normal;
+      font-weight: normal;
+      text-align: center;
+    ">
+    <div style="box-shadow: 1px 1px 4px gray; padding: 10px 10px 10px 10px; border-radius: 5px; width: 30%; height: 80%; margin: 10px auto 0 auto;">
+      <h1 style="font-weigth: 400; width: 90%; padding-bottom: 6px; border-bottom: 2px solid black; margin: 0 auto 18px auto;">To-Do app</h1>
+      <form id="addToDoForm">
+        <label for="newToDoText">New To-Do : </label>
+        <input type="text" id="newToDoText" style="border-radius: 8px;">
+        <button type="submit" style="border-radius: 8px;">Add To-Do!</button>
+      </form>
+      <ul id="toDoList" style="
+        text-align: left;
+      ">
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
