@@ -13,7 +13,7 @@ body {
   font-style: normal;
   font-weight: normal;
   text-align: center;
-  background-color: #283747;
+  background-color: #FF4500;
 }
 div {
   background-color: white;
@@ -49,6 +49,10 @@ li {
   padding-bottom: 8px;
   border-bottom: 1px solid grey;
 }
+li.checked {
+  color: green;
+  text-decoration: line-through;
+}
 input[type="checkbox"] {
   float: left;
   width: 15px;
@@ -82,7 +86,7 @@ button[type='submit']:active {
   transition-property: all;
   transition-timing-function: ease;
 }
-button[type='reset'] {
+button[name="close"] {
   float: right;
   height: 1.4rem;
   color: white;
@@ -94,14 +98,14 @@ button[type='reset'] {
   outline-style: none;
   opacity: 0.5;
 }
-button[type='reset']:hover {
+button[name="close"]:hover {
   color: white;
   background-color: red;
   opacity: 1;
   transition-duration: 0.2s;
   transition-timing-function: ease;
 }
-button[type='reset']:active {
+button[name="close"]:active {
   color: white;
   background-color: red;
   opacity: 1;
